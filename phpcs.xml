@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ruleset name="Unprefix">
+    <description>Unprefix Coding Standard</description>
+
+    <!--
+    PHP 7.1 and higher.
+    -->
+    <config name="testVersion" value="7.1-"/>
+
+    <file>./src</file>
+    <file>./partials</file>
+
+    <config name="text_domain" value="unprefix"/>
+
+    <rule ref="Inpsyde"/>
+</ruleset>

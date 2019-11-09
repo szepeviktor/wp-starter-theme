@@ -1,0 +1,27 @@
+{
+  "name": "widoz/wp-starter-theme",
+  "type": "wordpress-theme",
+  "description": "Yep, another WordPress starter theme",
+  "keywords": [
+    "wordpress",
+    "theme"
+  ],
+  "homepage": "https://github.com/widoz/wp-starter-theme",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Guido Scialfa",
+      "email": "dev@guidoscialfa.com",
+      "homepage": "http://www.guidoscialfa.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/widoz/wp-starter-theme/issues"
+  },
+  "require": {
+    "php": ">=7.1"
+  }
+}
