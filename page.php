@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 get_header('page') ?>
 
-    <div id="wpst_content" class="wpst-content wpst-content--page">
+    <section id="wpst_content" class="wpst-content wpst-content--page">
 
         <?php do_action('wpst.before_page') ?>
 
@@ -13,7 +13,7 @@ get_header('page') ?>
 
         <?php do_action('wpst.after_page_content') ?>
 
-    </div>
+    </section>
 
 <?php
 get_footer('page');
