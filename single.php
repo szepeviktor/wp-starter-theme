@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 get_header('single') ?>
 
-    <div id="wpst_content" class="wpst-content wpst-content--single">
+    <section id="wpst_content" class="wpst-content wpst-content--single">
 
         <?php do_action('wpst.before_single') ?>
 
@@ -13,7 +13,7 @@ get_header('single') ?>
 
         <?php do_action('wpst.after_single_content') ?>
 
-    </div>
+    </section>
 
 <?php
 get_footer('single');
