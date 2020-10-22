@@ -4,7 +4,7 @@ declare(strict_types=1);
 get_header('attachment');
 ?>
 
-    <div id="wpst_content" class="wpst-content wpst-content--attachment">
+    <section id="wpst_content" class="wpst-content wpst-content--attachment">
 
         <?php do_action('wpst.before_attachment_content') ?>
 
@@ -14,7 +14,7 @@ get_header('attachment');
 
         <?php do_action('wpst.after_attachment_content') ?>
 
-    </div>
+    </section>
 
 <?php
 get_footer('attachment');
